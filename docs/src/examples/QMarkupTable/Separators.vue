@@ -70,7 +70,7 @@ import { ref } from 'vue'
 export default {
   setup () {
     return {
-      separator: ref('vertical'),
+      separator: ref('horizontal'),
       separatorOptions: [
         { label: 'Horizontal', value: 'horizontal' },
         { label: 'Vertical', value: 'vertical' },
